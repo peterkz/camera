@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1054997944631",
+    "firebase_url": "https://cameras-0.firebaseio.com",
+    "project_id": "cameras-0",
+    "storage_bucket": "cameras-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054997944631:android:6c877c212c8a7c18",
+        "android_client_info": {
+          "package_name": "com.wetoop.cameras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054997944631-4p66q76o1lb15ko8nito2spvvqreg9ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAoalrINeL4iyIVtyD-mjK94cA-OKTdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

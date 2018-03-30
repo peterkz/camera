@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GalaEye</string>
+    <string-array name="spinnername">
+        <item>标清</item>
+        <item>高清</item>
+    </string-array>
+    <string name="tab1">监  控</string>
+    <string name="tab2">已保存</string>
+    <string name="tab3">帐号信息</string>
+    <string name="tabadd1">局域网寻找模式</string>
+    <string name="tabadd2">单设备寻找模式</string>
+</resources>

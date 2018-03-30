@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#646668</color>
+    <color name="first">#FF7F91F1</color>
+    <color name="back_unclicked">#3F51B5</color>
+    <color name="back_clicked">#2339b7</color>
+    <color name="forget_pwdUn">#ffffff</color>
+    <color name="forget_pwd">#a9a2a2</color>
+    <color name="action_blue">#2196f3</color>
+    <color name="takephone_button_color">#ff06a3cf</color>
+    <color name="action_bar_color">#ffffff</color>
+    <color name="action_bar_color_text">#666666</color>
+    <color name="galaeye_colorPrimary">#00bcd5</color>
+    <color name="galaeye_grey">#646668</color>
+    <color name="galaeye_red">#fa0105</color>
+    <color name="galaeye_colorPrimaryDark">#018c9e</color>
+    <color name="green">#669900</color>
+    <color name="white">#FFFFFF</color>
+</resources>

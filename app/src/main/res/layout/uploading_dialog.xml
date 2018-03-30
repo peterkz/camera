@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:background="#00000000"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:id="@+id/progress"
+        android:padding="16dp"
+        style="@style/ProgressBar_Mini"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+    <TextView
+        android:id="@+id/progress_title"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在下载"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:layout_toRightOf="@+id/progress_title"
+        android:layout_below="@+id/progress"
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"/>
+    <!--<com.wetoop.camera.dialog.CirclePercentView
+        android:id="@+id/circleView"
+        app:stripeWidth="15dp"
+        app:centerTextSize="16sp"
+        app:percent="45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>-->
+</RelativeLayout>

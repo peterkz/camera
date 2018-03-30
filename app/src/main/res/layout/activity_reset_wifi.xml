@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/galaeye_first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="visible">
+        <RelativeLayout
+            android:id="@+id/mainTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:id="@+id/back1"
+                android:layout_width="53dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/back_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/galaeye_btn_return_background" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/galaeye_first_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainTitle1"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/galaeye_first_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="209dp"
+                android:background="@mipmap/galaeye_img_against" />
+
+            <ImageView
+                android:id="@+id/galaeye_first_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/galaeye_first_image1"
+                android:background="@mipmap/galaeye_img_camera" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/galaeye_first_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="接通电源，找到摄像头复位孔，用取卡针短按"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/galaeye_first_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_first_textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="发出提示音进入联网状态"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:id="@+id/galaeye_first_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_first_textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/galaeyebutton_1" />
+
+            <Button
+                android:id="@+id/galaeye_first_button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_first_choice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/galaeye_first_choice_background"
+                android:text="下一步"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/galaeye_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/mainTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:id="@+id/back2"
+                android:layout_width="53dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/back_image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/galaeye_btn_return_background" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/galaeye_second_image"
+            android:layout_below="@+id/mainTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/galaeye_img_phone" />
+        <TextView
+            android:id="@+id/galaeye_second_textview_sn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GALA_056566236"
+            android:textColor="@color/galaeye_colorPrimary"
+            android:textSize="8dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="81dp"
+            android:layout_alignTop="@+id/galaeye_second_image"
+            android:layout_alignLeft="@+id/galaeye_second_image"
+            android:layout_alignStart="@+id/galaeye_second_image" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/galaeye_second_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="手机WiFi设置中找到GALA热点进行连接"
+                android:textSize="13dp" />
+
+            <RelativeLayout
+                android:id="@+id/galaeye_second_R1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_second_textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+                <!--<ImageView
+                    android:id="@+id/galaeye_connect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/galaeye_btn_unselected" />-->
+
+                <TextView
+                    android:id="@+id/galaeye_connect_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="未连接热点"
+                    android:textColor="#fa0105"
+                    android:textSize="13dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/galaeye_second_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_second_R1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:src="@mipmap/galaeyebutton_2" />
+
+            <RelativeLayout
+                android:id="@+id/galaeye_second_R2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/galaeye_second_choice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/galaeye_second_button_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"
+                    android:text="去设置"
+                    android:textColor="#2196f3"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/galaeye_second_button"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/galaeye_second_button_setting"
+                    android:background="@drawable/galaeye_first_choice_background"
+                    android:text="下一步"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/galaeye_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/galaeye_colorPrimary">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/backToLast"
+                android:text="摄像头联网"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <RelativeLayout
+                android:id="@+id/backToLast"
+                android:layout_width="53dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/galaeye_add_background">
+
+                <ImageView
+                    android:id="@+id/backToLast_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/back" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/galaeye_three_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/galaeye_three_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="输入网络信息"
+                android:textSize="52px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/galaeye_three_textView1"
+                android:background="@color/galaeye_grey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/galaeye_three_textView1"
+                android:background="@color/galaeye_grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/galaeye_three_textView"
+            android:layout_margin="10dp"
+            android:background="#dadada"
+            android:paddingBottom="13dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="13dp">
+
+            <EditText
+                android:id="@+id/galaeye_wifi_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="WiFi名称"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#dadada"
+            android:paddingBottom="13dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="13dp">
+
+            <EditText
+                android:id="@+id/galaeye_wifi_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="密码"
+                android:maxLines="1"
+                android:password="true"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/galaeye_three_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/galaeye_first_choice_background"
+            android:text="完成"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+</RelativeLayout>
